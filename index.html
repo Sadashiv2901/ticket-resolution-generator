@@ -1,0 +1,20 @@
+    <label>Status</label>
+        <select id="status">
+            <option value="resolved">Resolved</option>
+            <option value="closed">Closed</option>
+            <option value="pending">Pending</option>
+        </select>
+
+        <button onclick="generateResolution()">Generate Resolution</button>
+
+        <div class="result">
+            <h2>Resolution</h2>
+            <p id="resolution">Your resolution will appear here.</p>
+            <button onclick="copyResolution()">Copy Resolution</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
